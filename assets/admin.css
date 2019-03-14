@@ -1,0 +1,102 @@
+/**
+ * Admin CSS
+ * @package WordPress
+ * @subpackage  Facebook Page Fans
+ * @author Shazzad Hossain Khan
+ * @url https://shazzad.me
+**/
+
+
+.fbpf_wrap pre{
+	overflow:auto;
+}
+.fbpf_wrap pre.small{
+	font-size:12px;
+	line-height: normal;
+}
+textarea.fbpf_small_text{
+	font-size:12px !important;
+	line-height: normal !important;
+}
+/* Error/Message/Note */
+.fbpf_wrap div._note,
+.fbpf_wrap div._error,
+.fbpf_wrap div._updated,
+.fbpf_wrap div._ok {
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+    background-color: #fff;
+	border-left:4px solid #d1e5ee;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.fbpf_wrap div._note p,
+.fbpf_wrap div._error p,
+.fbpf_wrap div._updated p,
+.fbpf_wrap div._ok p{
+	margin:.5em 0;
+}
+.fbpf_wrap div._error {
+    border-color: #dd3d36;
+}
+.fbpf_wrap div._updated,
+.fbpf_wrap div._ok {
+    border-color: #7ad03a;
+}
+.notes div._error,
+.notes div._updated,
+.notes div._ok{
+	margin:0;
+}
+.notes div._note + div._note{
+	margin-top:5px;
+}
+#fbpf_admin_notes._ld{
+	padding-left:30px;
+	background-position:5px center;
+	background-repeat:no-repeat;
+	background-image:url(images/spinner.gif);
+}
+
+/* Form */
+.wf{
+	color:#333;
+	margin-bottom:20px;
+}
+.wf p{
+	font-style:normal;
+	font-size:inherit;
+}
+.wfft_textarea{
+	height:auto;
+}
+.fbpf__ov{
+	overflow:visible;
+}
+
+/* Box */
+.fbpf-box{
+	margin-bottom:20px;
+	border:2px solid #ddd;
+	background-color:#fff;
+}
+.fbpf-box-title {
+    font-size: 1.4rem;
+    line-height: normal;
+    padding: .75rem 1.75rem;
+    padding-top: 20px;
+}
+.fbpf-box-content{
+	padding:.75rem 1.75rem 1.75rem 1.75rem;
+}
+
+
+.fbpf-admin-content{
+	overflow:hidden;
+}
+@media(min-width:768px){
+	.fbpf-admin-sidebar{
+		float:right;
+		width:300px;
+		margin-left:20px;
+	}
+}
